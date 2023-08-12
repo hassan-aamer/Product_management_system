@@ -79,7 +79,8 @@ table {
 table th {
   text-transform: uppercase;
 }
-th,
-td {
-  padding: 5px;
+@media (max-width: 767px) {
+  th , td {
+    font-size: 10px;
+  }
 }
